@@ -10,8 +10,6 @@ export interface JwtPayload {
   email: string;
   /** 사용자 역할 */
   role: Role;
-  /** 사용자 소속 업체 ID */
-  companyId: string;
   /** 사용자 권한 목록 */
   permissions: string[];
   /** Issued At - 토큰 발급 시간 (JWT 표준) */
@@ -29,7 +27,6 @@ export interface AuthorizedUser {
   id: string;
   email: string;
   role: Role;
-  companyId: string;
   permissions: string[];
   hasPermission?: (permission: string) => boolean;
   hasAnyPermission?: (permissions: string[]) => boolean;
