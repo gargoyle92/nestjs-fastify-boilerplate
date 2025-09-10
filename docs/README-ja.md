@@ -34,6 +34,7 @@
 
 **🏗️ NestJS 11 + Fastify 5** - Express比2倍高速な現代的フレームワーク  
 **🔒 JWT認証** - ガードと検証を含む完全な認証システム  
+**👥 RBACシステム** - ロールベースアクセス制御と権限ガードシステム  
 **🗄️ Prisma ORM** - 自動マイグレーション付き型安全データベース操作  
 **📚 自動ドキュメント** - Nestiaが型からAPIドキュメント+クライアントSDK生成  
 **🛠️ 開発準備完了** - ホットリロード、テスト、リント、Docker設定済み  
@@ -56,7 +57,8 @@
 ## 🎯 現在サポートしている機能
 
 ✅ **認証** - JWT認証、登録/ログイン、bcryptハッシュ化  
-✅ **ユーザー管理** - CRUD操作、プロフィール、ロールベース権限  
+✅ **RBACシステム** - ユーザー-ロール-権限モデルを含む完全なロールベースアクセス制御  
+✅ **ユーザー管理** - CRUD操作、プロフィール、権限ベースデータフィルタリング  
 ✅ **APIドキュメント** - 自動生成Swagger UI、型安全エンドポイント  
 ✅ **データベース** - Prisma設定、マイグレーション、接続管理、シード  
 ✅ **開発ツール** - ホットリロード、ESLint/Prettier、Jestテスト、Docker
@@ -144,16 +146,11 @@ src/
 - **NestJSチーム** - 素晴らしいフレームワークの提供
 - **Fastifyチーム** - 高性能HTTPサーバーの提供
 - **Prismaチーム** - 優秀なORMとツールの提供
-- **Nestia貢献者** - 型安全なAPI開発のサポート
+- **Nestia貢献者, [@samchon](https://github.com/samchon)** - 型安全なAPI開発のサポート
 
 ## 📞 サポートとコミュニティ
 
 - **Issues**: [GitHub Issues](https://github.com/your-username/nestjs-fastify-boilerplate/issues)
 - **Discussions**: [GitHub Discussions](https://github.com/your-username/nestjs-fastify-boilerplate/discussions)
-- **NestJS Discord**: [コミュニティ参加](https://discord.gg/G7Qnnhy)
 
 ---
-
-<p align="center">
-  <sub>NestJS、Fastify、TypeScriptで❤️を込めて作成</sub>
-</p>

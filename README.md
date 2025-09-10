@@ -34,6 +34,7 @@ Essential features including database connections, authentication, logging, and 
 
 **🏗️ NestJS 11 + Fastify 5** - Modern framework with 2x Express performance  
 **🔒 JWT Authentication** - Complete auth system with guards and validation  
+**👥 RBAC System** - Role-Based Access Control with permissions and guards  
 **🗄️ Prisma ORM** - Type-safe database operations with auto-migration  
 **📚 Auto Documentation** - Nestia generates API docs + client SDKs from types  
 **🛠️ Developer Ready** - Hot reload, testing, linting, Docker configured  
@@ -56,7 +57,8 @@ Essential features including database connections, authentication, logging, and 
 ## 🎯 Current Features
 
 ✅ **Authentication** - JWT auth, user registration/login, bcrypt hashing  
-✅ **User Management** - CRUD operations, profiles, role-based permissions  
+✅ **RBAC System** - Complete role-based access control with User-Role-Permission model  
+✅ **User Management** - CRUD operations, profiles, permission-based data filtering  
 ✅ **API Documentation** - Auto-generated Swagger UI, type-safe endpoints  
 ✅ **Database** - Prisma setup, migrations, connection management, seeding  
 ✅ **Development** - Hot reload, ESLint/Prettier, Jest testing, Docker
@@ -144,7 +146,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - **NestJS Team** - For the amazing framework
 - **Fastify Team** - For the high-performance HTTP server
 - **Prisma Team** - For the excellent ORM and tooling
-- **Nestia Contributors** - For type-safe API development
+- **Nestia Contributors And [@samchon](https://github.com/samchon)** - For type-safe API development
 
 ## 📞 Support & Community
 
@@ -152,7 +154,3 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - **Discussions**: [GitHub Discussions](https://github.com/your-username/nestjs-fastify-boilerplate/discussions)
 
 ---
-
-<p align="center">
-  <sub>Built with ❤️ using NestJS, Fastify, and TypeScript</sub>
-</p>
